@@ -184,51 +184,51 @@ export default function Index() {
 
                 <div className="flex flex-col">
                   {/* Experience 1 */}
-                  <div className="flex flex-col sm:flex-row gap-3 py-3 border-b border-[rgba(0,0,0,0.10)]">
-                    <div className="flex items-center gap-3 flex-1">
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/365f3f998ff4d9d1270faaff655f1802255b7959?width=107" 
+                  <div className="flex items-center gap-3 py-3 border-b border-[rgba(0,0,0,0.10)]">
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/365f3f998ff4d9d1270faaff655f1802255b7959?width=107"
                         alt="MobiOffice"
-                        className="w-12 h-12 rounded-full border border-[#DCDCDC] backdrop-blur-[21.5px]"
+                        className="w-12 h-12 rounded-full border border-[#DCDCDC] backdrop-blur-[21.5px] flex-shrink-0"
                       />
-                      <div className="flex flex-col gap-0.5">
-                        <p className="text-sm text-[#7C7C7C]" style={{ fontFamily: 'Geist, sans-serif' }}>MobiOffice Software Innovations Pvt Ltd</p>
+                      <div className="flex flex-col gap-0.5 min-w-0 flex-1">
+                        <p className="text-sm text-[#7C7C7C] truncate" style={{ fontFamily: 'Geist, sans-serif' }}>MobiOffice Software Innovations Pvt Ltd</p>
                         <p className="text-base font-medium text-[#171717]" style={{ fontFamily: 'Geist, sans-serif', lineHeight: '22.4px' }}>Sr. UX/UI Designer - Surat</p>
                       </div>
                     </div>
-                    <span className="text-sm font-light text-[#7C7C7C]" style={{ fontFamily: 'Geist Mono, monospace' }}>Jan,2023 - Present</span>
+                    <span className="text-sm font-light text-[#7C7C7C] flex-shrink-0 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>Jan,2023 - Present</span>
                   </div>
 
                   {/* Experience 2 */}
-                  <div className="flex flex-col sm:flex-row gap-3 py-3 border-b border-[rgba(0,0,0,0.10)]">
-                    <div className="flex items-center gap-3 flex-1">
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/4ebf8bb3eef43fb4ff10c0f03ed9c2ef478764cc?width=99" 
+                  <div className="flex items-center gap-3 py-3 border-b border-[rgba(0,0,0,0.10)]">
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/4ebf8bb3eef43fb4ff10c0f03ed9c2ef478764cc?width=99"
                         alt="Byond.Studio"
-                        className="w-12 h-12 rounded-full border border-[#DCDCDC] backdrop-blur-[21.5px]"
+                        className="w-12 h-12 rounded-full border border-[#DCDCDC] backdrop-blur-[21.5px] flex-shrink-0"
                       />
-                      <div className="flex flex-col gap-0.5">
+                      <div className="flex flex-col gap-0.5 min-w-0 flex-1">
                         <p className="text-sm text-[#7C7C7C]" style={{ fontFamily: 'Geist, sans-serif' }}>Byond.Studio</p>
                         <p className="text-base font-medium text-[#171717]" style={{ fontFamily: 'Geist, sans-serif', lineHeight: '22.4px' }}>UX/UI Designer - Surat</p>
                       </div>
                     </div>
-                    <span className="text-sm font-light text-[#7C7C7C]" style={{ fontFamily: 'Geist Mono, monospace' }}>Jan,2021 - Dec,2022</span>
+                    <span className="text-sm font-light text-[#7C7C7C] flex-shrink-0 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>Jan,2021 - Dec,2022</span>
                   </div>
 
                   {/* Experience 3 */}
-                  <div className="flex flex-col sm:flex-row gap-3 py-3">
-                    <div className="flex items-center gap-3 flex-1">
-                      <img 
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/b68dd5ac20b0500773cf6cc58b83d7913ab6ec8a?width=112" 
+                  <div className="flex items-center gap-3 py-3">
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/b68dd5ac20b0500773cf6cc58b83d7913ab6ec8a?width=112"
                         alt="ProEX Advisor LLP"
-                        className="w-12 h-12 rounded-full border border-[#DCDCDC] backdrop-blur-[21.5px]"
+                        className="w-12 h-12 rounded-full border border-[#DCDCDC] backdrop-blur-[21.5px] flex-shrink-0"
                       />
-                      <div className="flex flex-col gap-0.5">
+                      <div className="flex flex-col gap-0.5 min-w-0 flex-1">
                         <p className="text-sm text-[#7C7C7C]" style={{ fontFamily: 'Geist, sans-serif' }}>ProEX Advisor LLP</p>
                         <p className="text-base font-medium text-[#171717]" style={{ fontFamily: 'Geist, sans-serif', lineHeight: '22.4px' }}>Internship, Graphics Designer - Ahmedabad</p>
                       </div>
                     </div>
-                    <span className="text-sm font-light text-[#7C7C7C]" style={{ fontFamily: 'Geist Mono, monospace' }}>Nov,2020 - Dec,2020</span>
+                    <span className="text-sm font-light text-[#7C7C7C] flex-shrink-0 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>Nov,2020 - Dec,2020</span>
                   </div>
                 </div>
               </div>

@@ -16,7 +16,7 @@ export default function Index() {
     <div className="min-h-screen bg-white">
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_950px]">
         {/* Left Side - Profile */}
-        <div className="px-6 sm:px-12 md:px-16 lg:px-20 xl:px-[320px] py-8 lg:py-[33px] bg-white">
+        <div className="px-4 sm:px-6 md:px-12 lg:px-20 xl:px-[320px] py-6 sm:py-8 lg:py-[33px] bg-white">
           <div className="w-full max-w-[570px] mx-auto flex flex-col gap-7">
             {/* Header */}
             <div className="flex flex-col gap-4 w-full">
@@ -93,7 +93,7 @@ export default function Index() {
                     <div className="text-sm font-light text-[#171717] text-justify" style={{ fontFamily: 'Geist, sans-serif' }}>
                       <p className="mb-3">For me, design goes beyond visuals — it's about solving real problems. I craft clean, modern, human-centered experiences that connect people with brands and make technology feel effortless.</p>
                       <p className="mb-3">With nearly 5 years of experience as a Senior UX/UI Designer, I've built digital products that put people first — blending clean aesthetics, thoughtful interactions, and meaningful impact.</p>
-                      <p>I also leverage AI to boost productivity and accelerate iteration ��� from copywriting and user research to rapid prototyping and design automation.</p>
+                      <p>I also leverage AI to boost productivity and accelerate iteration — from copywriting and user research to rapid prototyping and design automation.</p>
                     </div>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ export default function Index() {
         </div>
 
         {/* Right Side - Portfolio */}
-        <div className="px-6 sm:px-12 lg:px-20 py-8 lg:py-[33px] bg-[#EBEBEB] border-l border-[#DCDCDC]">
+        <div className="hidden lg:block px-6 sm:px-12 lg:px-20 py-8 lg:py-[33px] bg-[#EBEBEB] border-l border-[#DCDCDC]">
           <div className="max-w-[550px] mx-auto flex flex-col gap-7">
             <div className="flex items-center gap-3">
               <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px]" style={{ fontFamily: 'Geist Mono, monospace', lineHeight: '16px' }}>// sELECTED wORK</span>

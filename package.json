@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --config vite.config.ts",
     "build:client": "vite build",
     "start": "npx serve dist/spa",
     "test": "vitest --run",

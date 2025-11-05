@@ -14,11 +14,11 @@ export default defineConfig(({ mode }) => ({ // 👈 your GitHub repo name (impo
     },
   },
   build: {
-    outDir: "dist/spa", // 👈 output folder for production build
+    outDir: "dist/spa",
   },
   plugins: [
     react(),
-    expressPlugin(), // 👈 only runs during local development
+    expressPlugin(),
   ],
   resolve: {
     alias: {

@@ -12,10 +12,9 @@
   },
   "scripts": {
     "dev": "vite",
+    "build": "vite build && vite build --ssr",
     "build:client": "vite build",
-      "build": "vite build",        
-    "preview": "vite preview",
-    "start": "npx serve dist",
+    "start": "npx serve dist/spa",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc"

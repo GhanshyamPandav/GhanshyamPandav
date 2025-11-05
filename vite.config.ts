@@ -5,6 +5,7 @@ import { createServer } from "./server";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/GhanshyamPandav/", // 👈 your repo name here
   server: {
     host: "::",
     port: 8080,

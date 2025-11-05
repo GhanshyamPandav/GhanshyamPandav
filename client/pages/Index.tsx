@@ -118,30 +118,30 @@ export default function Index() {
                       </button>
                     </div>
                     {expandedSkills.core && (
-                      <div className="flex flex-col -gap-px">
-                        <div className="flex flex-wrap -gap-px">
+                      <div className="space-y-0">
+                        <div className="flex gap-0 flex-wrap">
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>🧩UI/UX Design</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>🧩UI/UX Design</span>
                           </div>
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>🎨Visual Design</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>🎨Visual Design</span>
                           </div>
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>🧱Design Systems</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>🧱Design Systems</span>
                           </div>
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>🧾Wireframming</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>🧾Wireframming</span>
                           </div>
                         </div>
-                        <div className="flex flex-wrap -gap-px">
+                        <div className="flex gap-0 flex-wrap">
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>⚙️Prototyping</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>⚙️Prototyping</span>
                           </div>
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>🔁Interaction Design</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>🔁Interaction Design</span>
                           </div>
                           <div className="px-2.5 py-2.5 rounded-full border border-[#DCDCDC]">
-                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4" style={{ fontFamily: 'Geist Mono, monospace' }}>🗂️Information Architecture</span>
+                            <span className="text-[11px] text-[#7C7C7C] uppercase tracking-[1.32px] leading-4 whitespace-nowrap" style={{ fontFamily: 'Geist Mono, monospace' }}>🗂️Information Arch</span>
                           </div>
                         </div>
                       </div>

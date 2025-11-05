@@ -4,8 +4,7 @@ import path from "path";
 import { createServer } from "./server"; // 👈 only used in dev mode
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: "/GhanshyamPandav/", // 👈 your GitHub repo name (important for Pages)
+export default defineConfig(({ mode }) => ({ // 👈 your GitHub repo name (important for Pages)
   server: {
     host: "::",
     port: 8080,

@@ -14,7 +14,7 @@
     "dev": "vite",
     "build": "vite build --config vite.config.ts",
     "build:client": "vite build",
-    "start": "npx serve dist/spa",
+    "start": "npx serve dist",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc"

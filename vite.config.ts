@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({ // 👈 your GitHub repo name (impo
     },
   },
   build: {
-    outDir: "dist/spa",
+    outDir: "dist",
   },
   plugins: [
     react(),

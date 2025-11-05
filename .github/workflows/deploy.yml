@@ -29,12 +29,12 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      # 👇 This is the critical missing step
-      - name: Enable Corepack and prepare pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@latest --activate
-          pnpm --version  # just to confirm pnpm is installed
+      # 👇 Force-install pnpm (this avoids all Corepack path issues)
+      - name: Install PNPM
+        run: npm install -g pnpm
+
+      - name: Verify PNPM installation
+        run: pnpm --version
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile

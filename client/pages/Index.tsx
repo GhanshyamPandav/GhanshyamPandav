@@ -14,33 +14,33 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_auto] xl:grid-cols-[1fr_950px]">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_950px]">
         {/* Left Side - Profile */}
-        <div className="px-6 sm:px-12 lg:px-20 xl:px-[320px] py-8 lg:py-[33px] bg-white">
-          <div className="max-w-[570px] mx-auto flex flex-col gap-7">
+        <div className="px-6 sm:px-12 md:px-16 lg:px-20 xl:px-[320px] py-8 lg:py-[33px] bg-white">
+          <div className="w-full max-w-[570px] mx-auto flex flex-col gap-7">
             {/* Header */}
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-              <button className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
-                <Download className="w-4 h-4 text-[#3D3D3D]" />
-                <span className="text-xs font-normal text-[#3D3D3D]" style={{ fontFamily: 'Geist, sans-serif' }}>Download My Resume</span>
-              </button>
+            <div className="flex flex-col gap-4 w-full">
+              <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
+                <button className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0 whitespace-nowrap">
+                  <Download className="w-4 h-4 text-[#3D3D3D] flex-shrink-0" />
+                  <span className="text-xs font-normal text-[#3D3D3D]" style={{ fontFamily: 'Geist, sans-serif' }}>Download My Resume</span>
+                </button>
 
-              <div className="flex items-center gap-2 flex-wrap">
-                <div className="flex flex-col">
-                  <span className="text-xs text-[#7C7C7C]" style={{ fontFamily: 'Geist, sans-serif' }}>Currently at:</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <div className="flex items-end gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
-                    <span className="text-sm">🌍</span>
-                    <span className="text-xs text-[#3D3D3D]" style={{ fontFamily: 'Geist, sans-serif' }}>Surat</span>
-                  </div>
-                  <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
-                    <span className="text-sm">⏰</span>
-                    <span className="text-xs text-[#3D3D3D]" style={{ fontFamily: 'Geist, sans-serif' }}>10:04 AM</span>
-                  </div>
-                  <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
-                    <span className="text-sm">🌤️</span>
-                    <span className="text-xs text-[#3D3D3D]" style={{ fontFamily: 'Geist, sans-serif' }}>14°C</span>
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 flex-wrap">
+                  <span className="text-xs text-[#7C7C7C] flex-shrink-0" style={{ fontFamily: 'Geist, sans-serif' }}>Currently at:</span>
+                  <div className="flex items-center gap-1 flex-wrap">
+                    <div className="flex items-end gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0">
+                      <span className="text-sm flex-shrink-0">🌍</span>
+                      <span className="text-xs text-[#3D3D3D] whitespace-nowrap" style={{ fontFamily: 'Geist, sans-serif' }}>Surat</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0">
+                      <span className="text-sm flex-shrink-0">⏰</span>
+                      <span className="text-xs text-[#3D3D3D] whitespace-nowrap" style={{ fontFamily: 'Geist, sans-serif' }}>10:04 AM</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0">
+                      <span className="text-sm flex-shrink-0">🌤️</span>
+                      <span className="text-xs text-[#3D3D3D] whitespace-nowrap" style={{ fontFamily: 'Geist, sans-serif' }}>14°C</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -50,28 +50,28 @@ export default function Index() {
             <div className="flex flex-col gap-6">
               <div className="rounded-xl border border-[#DCDCDC] bg-[rgba(255,255,255,0)] shadow-[0_18px_88px_-4px_rgba(73,73,73,0.10)] p-5">
                 {/* Profile Header */}
-                <div className="flex justify-between items-center mb-5">
-                  <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/4f19dbe61b9a3cd0fcc12dc10eef3a7e39f18e96?width=120" 
+                <div className="flex justify-between items-center gap-4 mb-5">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/4f19dbe61b9a3cd0fcc12dc10eef3a7e39f18e96?width=120"
                     alt="Profile"
-                    className="w-[60px] h-[60px] rounded-full shadow-[0_0_14.308px_0_rgba(0,0,0,0.32)_inset]"
+                    className="w-[60px] h-[60px] rounded-full shadow-[0_0_14.308px_0_rgba(0,0,0,0.32)_inset] flex-shrink-0"
                   />
-                  
-                  <div className="flex items-center gap-2">
+
+                  <div className="flex items-center gap-2 flex-wrap flex-shrink-0">
                     <div className="flex items-center gap-1">
-                      <button className="flex h-[30px] items-center justify-center px-4 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
+                      <button className="flex h-[30px] items-center justify-center px-4 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0">
                         <Github className="w-5 h-5 text-[#3D3D3D]" />
                       </button>
-                      <button className="flex h-[30px] items-center justify-center px-4 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
+                      <button className="flex h-[30px] items-center justify-center px-4 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0">
                         <Linkedin className="w-5 h-5 text-[#3D3D3D]" />
                       </button>
-                      <button className="flex h-[30px] items-center justify-center px-4 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm">
+                      <button className="flex h-[30px] items-center justify-center px-4 rounded-full bg-[rgba(41,41,41,0.08)] backdrop-blur-sm flex-shrink-0">
                         <Mail className="w-5 h-5 text-[#3D3D3D]" />
                       </button>
                     </div>
-                    <div className="rounded-md bg-gradient-to-b from-[#111113] to-[#5B5B63] p-[1px] shadow-[0_0_0_1px_#1F1F22]">
-                      <button className="flex items-center gap-2.5 px-3 py-1.5 rounded-[5px] bg-gradient-to-b from-[#404045] to-[#1A1A1C]">
-                        <Mail className="w-4 h-4 text-white" />
+                    <div className="rounded-md bg-gradient-to-b from-[#111113] to-[#5B5B63] p-[1px] shadow-[0_0_0_1px_#1F1F22] flex-shrink-0">
+                      <button className="flex items-center gap-2 px-3 py-1.5 rounded-[5px] bg-gradient-to-b from-[#404045] to-[#1A1A1C] whitespace-nowrap">
+                        <Mail className="w-4 h-4 text-white flex-shrink-0" />
                         <span className="text-sm font-medium text-white" style={{ fontFamily: 'Geist, sans-serif' }}>Contact Me</span>
                       </button>
                     </div>

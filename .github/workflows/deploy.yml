@@ -3,7 +3,7 @@ name: Deploy static client (dist/spa) to GitHub Pages
 on:
   push:
     branches:
-      - main  # change if your default branch name differs
+      - main  # change if your default branch is different
   workflow_dispatch:
 
 permissions:
@@ -29,19 +29,19 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
+      - name: Enable Corepack (for PNPM)
+        run: corepack enable
+
       - name: Install dependencies
-        run: |
-          corepack enable
-          pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build client (Vite)
-        run: |
-          pnpm build:client
+        run: pnpm build:client
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/spa  # 👈 this is your actual output folder
+          path: dist/spa  # 👈 must match your outDir from Vite config
 
   deploy:
     environment:

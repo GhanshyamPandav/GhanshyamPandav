@@ -6,8 +6,8 @@
     "assets": [
       "dist/spa/*"
     ],
-    "scripts": {
-  "build:client": "vite build"
+    "scripts": [
+      "dist/server/**/*.js"
     ]
   },
   "scripts": {
